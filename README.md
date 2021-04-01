@@ -63,7 +63,7 @@ Parâmetros da URL:
 Exemplo de requisição cURL:
 
 ```
-curl -H "Content-Type: application/json" -X GET http://localhost:8080/api/tasks/1
+curl -H "Content-Type: application/json" -X GET http://localhost:8080/tasks/1
 ```
 
 ### Editar tarefa
