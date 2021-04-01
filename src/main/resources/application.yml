@@ -1,0 +1,30 @@
+server:
+  error:
+    include-stacktrace: on_param
+
+spring:
+  application:
+    name: tasks-project
+  datasource:
+    url: jdbc:mysql://localhost:3306/tasks?createDatabaseIfNotExist=true
+    username: lucas
+    password: Lucas@123
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: DEBUG
+
+management:
+  endpoint:
+    web:
+      exposure:
+        includ: info, health, metrics, prometheus
+
+info:
+  app: Task's Project
+  github:
