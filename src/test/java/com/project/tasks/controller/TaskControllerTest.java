@@ -25,7 +25,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import java.util.List;
 
 @ExtendWith(SpringExtension.class)
-class AnimeControllerTest {
+class TaskControllerTest {
 
     @InjectMocks
     private TaskController taskController;

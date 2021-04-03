@@ -9,9 +9,9 @@ services:
     container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: Lucas@123
-      MYSQL_TCP_PORT: 3307
+      MYSQL_TCP_PORT: 3306
     ports:
-      - "3307:3307"
+      - "3306:3306"
     volumes:
       - lucas_data:/var/lib/mysql
     mem_limit: 512m
